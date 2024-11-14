@@ -44,13 +44,13 @@ int main(int argc, char *argv[]) {
     // area total de la superficie
     area_total = areas[0] + areas[1] + areas[2] + areas[3];
 
-    printf("El perimetro de la base es %f\n", p_total); 
-    printf("El area de la base es %f\n", areas[0]);
-    printf("El area total de la superficie de la piramide es %f\n", area_total);
+    printf("El perimetro de la base = %f\n", p_total); 
+    printf("El area de la base = %f\n", areas[0]);
+    printf("El area total de la superficie de la piramide = %f\n", area_total);
 
     return 0;
 }
 
 
-//gcc *.c -o main
-//.\main.exe
+//    gcc *.c -o main
+//    .\main.exe
